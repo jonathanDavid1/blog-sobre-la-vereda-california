@@ -1,0 +1,13 @@
+.page {
+    background-color: #72ebf6;
+    
+  }
+  
+.title {
+    margin: 15px;
+    padding: 10px;
+}
+.container {
+    display: grid;
+    margin: 15px;
+}
