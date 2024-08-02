@@ -62,3 +62,22 @@ header nav ul li a:hover {
         margin: 0;
     }
 }
+
+
+/* images */
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-slide {
+    float: left;
+    width: 100%;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
