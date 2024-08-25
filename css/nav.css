@@ -1,0 +1,72 @@
+/* important color  
+#b983e5 violet 
+#5ccfe6 blue */
+
+.nav-container {
+    display: flex;
+    flex-wrap: space;
+    height: 80px;
+    max-width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(20, 18, 18, 0.8);
+    
+    
+}
+
+.nav-container .options {
+    display: none; /* Initially hide the options */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    height: 100%;
+    background-color: pink; /* Adjust the background color as needed */
+    z-index: 999; /* Ensure it's above other elements */
+  }
+.nav-container .options h2 {
+    color: #b983e5;
+    font-size: 28px;
+    margin-left: 50px;
+
+}
+.nav-container .options ul {
+    list-style: none;
+    margin-top: 40px;
+}
+.nav-container .options li {
+    margin-top: 40px;
+}
+.nav-container .options a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+  
+.nav-container .show-options  {
+    display: block;
+}
+
+.nav-container .logo img {    
+    flex: 1fr;
+    width: 60px;
+    margin: 0 auto;
+    align-self: center;
+    margin: 7px;
+}
+.nav-container .title {
+    flex: 3fr;
+    color: #b983e5;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 28px;
+}
+.nav-container .menu-icon {
+    flex: 1fr;
+    border-radius: 10px;
+    width: 60px;
+    height: 90%;
+    font-size: 25px;
+    color: black;
+    background-color: #b983e5; 
+}
+
